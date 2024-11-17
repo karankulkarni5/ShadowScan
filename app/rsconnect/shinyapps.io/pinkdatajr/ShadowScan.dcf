@@ -1,0 +1,13 @@
+name: ShadowScan
+title: app
+username: pinkdatajr
+account: pinkdatajr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13366219
+bundleId: 9377186
+url: https://pinkdatajr.shinyapps.io/ShadowScan/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Dockerfile.R
