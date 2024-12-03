@@ -1,0 +1,107 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Title bar styling */
+.title-bar {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Main container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Info panel styling */
+.info-panel {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Leaflet map styling */
+.leaflet-container {
+    border: 2px solid #0056b3;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Slider styling */
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.9;
+    transition: opacity .2s;
+    border-radius: 5px;
+}
+
+input[type=range]:hover {
+    opacity: 1;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #0056b3;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Tables styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Plots */
+.plot {
+    margin-top: 20px;
+}
